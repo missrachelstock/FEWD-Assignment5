@@ -75,6 +75,10 @@ img {
   margin: 0 auto;
 }
 
+.hide {
+  display: none;
+}
+
 /******************************************
 /* BUTTONS
 /*******************************************/
@@ -281,12 +285,14 @@ nav a {
   font-weight: 600;
 }
 
-.readmore {
+.readmore,
+.readless {
   text-align: right;
   margin-top: 30px;
 }
 
-.readmore a {
+.readmore a,
+.readless a {
   color: #043049;
   font-weight: 600;
 }
